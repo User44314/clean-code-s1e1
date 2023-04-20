@@ -9,13 +9,13 @@
 </head>
 
 <body>
-  <article>
+  <article class="head">
     <div class="head-info">
       <img src="./eisenhower-matrix.jpg" alt="eisenhower-matrix">
       <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?;</a>
     </div>
   </article>
-  <section>
+  <section class="main">
     <div class="main-page">
       <p id="adding-tolist">
         <label for="new-task">Add Item</label>
@@ -24,10 +24,9 @@
         <button>Add</button>
       </div>
       </p>
-
       <h3>Todo</h3>
-      <ul id="incompleteTasks">
-        <li>
+      <ul id="complete-tasks">
+        <li class="pay-bill">
           <input type="checkbox">
           <label class="task">Pay Bills</label>
           <input type="text" class="task">
@@ -44,7 +43,8 @@
       </ul>
       <h3>Completed</h3>
       <ul id="completed-tasks">
-        <li><input type="checkbox" checked>
+        <li class="completed">
+          <input type="checkbox" checked>
           <label class="task">See the Doctor</label>
           <input type="text" class="task">
           <button class="edit">Edit</button>
